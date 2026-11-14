@@ -1,4 +1,4 @@
-# 세션 실습
+# 실습
 
 나만의 카드를 만들어서 배포하고 서로 방문하면서 반응을 남긴 후 미션 숫자를 모으기
 
@@ -16,16 +16,16 @@
 
 ### Node.js 있는지 먼저 확인하기
 
-이미 깔려 있을 가능성이 높아요. VS Code를 열고 터미널을 띄운 다음:
+VS Code를 열고 터미널을 띄운 다음:
 
 ```bash
 node -v
 npm -v
 ```
 
-`v22.1.0` / `10.7.0` 처럼 버전이 나오면 준비 끝입니다. 숫자만 다르면 괜찮아요.
+`v22.1.0` / `10.7.0` 처럼 버전이 나오면 준비 끝입니다.
 
-`command not found` 가 나오면 [nodejs.org](https://nodejs.org) 에서 **LTS** 버튼을 눌러 받고 설치 마법사에서 계속 다음을 누르면 됩니다. `npm` 은 같이 들어오니 따로 설치할 필요 없어요. 설치 후에는 VS Code를 껐다 켜야 인식됩니다.
+`command not found` 가 나오면 [nodejs.org](https://nodejs.org) 에서 **LTS** 버튼을 눌러 받고 설치 마법사에서 계속 다음을 누르면 됩니다.
 
 ---
 
@@ -33,11 +33,11 @@ npm -v
 
 ### 1-1. 템플릿 복사하기
 
-디스코드에 공유해드린 GitHub 링크로 들어가서 위쪽 초록색 **Use this template** → **Create a new repository** 클릭
+위쪽 초록색 **Use this template** → **Create a new repository** 클릭
 
 이름은 아무거나 괜찮습니다. **Public** 으로 두고 **Create repository** 누르면 내 계정에 복사본이 생깁니다.
 
-> Fork 말고 꼭 **Use this template** 이어야 해요. Vercel은 내가 소유한 저장소만 연결할 수 있어서 남의 저장소에 협업자로 들어가 있으면 배포가 안 됩니다.
+> Vercel은 내가 소유한 저장소만 연결할 수 있어서 남의 저장소에 협업자로 들어가 있으면 배포가 안 됩니다.
 
 ### 1-2. 주소 복사하기
 
@@ -81,7 +81,7 @@ npm run dev
 
 ## 2. 배포하기
 
-**아직 코드는 안 고칩니다.** 내 주소부터 만들어놓고 시작합니다.
+**코드 고치기 전에 내 주소부터 만들어놓고 시작합니다.**
 
 1. [vercel.com](https://vercel.com) → **Continue with GitHub** 으로 로그인
 2. 우측 상단 **Create New... → Project**
